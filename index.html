@@ -5,13 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title> Sijuwade's Portfolio</title>
   <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
-  <link href="src/style.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <script src="/src/script.js" defer></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function(){
+      emailjs.init("2p-84Sh3_asu-Uc1z"); // Replace with your media key
+    })();
+  </script>
+
+
 
 
 </head>
 <body class="bg-white text-gray-800 font-sans">
 
-  <!-- Navbar -->
   <nav class="flex justify-between items-center px-6 py-4 bg-white top-0 z-50">
     <h1 class="text-xl font-bold">Wade</h1>
     <ul class="flex space-x-6 font-medium">
@@ -23,7 +32,7 @@
   </nav>
 
   <!-- Hero -->
-  <header class="reveal <!--bg-gradient-to-r from-blue-700 to-blue-900--> bg-no-repeat bg-cover text-white text-center py-20 px-4 h-full" style = "background-image: url('/background.jpg')">
+  <header class="reveal <!--bg-gradient-to-r from-blue-700 to-blue-900--> bg-no-repeat bg-cover text-white text-center py-20 px-4 h-full" style = "background-image: url('/media/background.jpg')">
     <h2 class="text-4xl font-bold mb-4">Hi, I'm Wade </h2>
     <p class="text-lg mb-6">Digital Marketer | Content Strategist | SEO Enthusiast</p>
     <a href="#contact" class="inline-block bg-white text-blue-700 px-6 py-2 rounded hover:bg-gray-100 transition">Hire Me</a>
@@ -32,7 +41,7 @@
   <!-- About -->
   <section id="about" class="reveal max-w-5xl mx-auto px-4 py-16 fade-in text-center">
     <h2 class="text-2xl font-bold text-blue-700 mb-4" style = "color: #05A0FE">About Me</h2>
-    <img src="/about.jpg" alt="Certification 4" class="mx-auto mb-4 h-24">
+    <img src="/media/about.jpg" alt="Certification 4" class="mx-auto mb-4 h-24">
     <p>I’m Wade — a communications graduate turned digital storyteller with a passion for building brands and communities.After graduating with first-class honors in Mass Communication,
        I discovered a strong pull toward marketing — not just the buzzwords, but the strategy, storytelling, and real connection behind every campaign. I’ve since channelled that energy
         into social media management, digital marketing, and community engagement across companies, NGOs, and creative teams.Whether it’s designing content that clicks, launching campaigns 
@@ -47,32 +56,32 @@
       <div class="flex flex-nowrap grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 items-center">
         
         <div class="flex flex-col items-center text-center">
-          <img src="/hubspot.jpg" alt="Certification 1" class="h-16 mb-2">
+          <img src="/media/hubspot.jpg" alt="Certification 1" class="h-16 mb-2">
           <p class="text-sm font-medium">Hubspot Academy Digital Marketing Cerification</p>
         </div>
   
         <div class="flex flex-col items-center text-center">
-          <img src="/meta.png" alt="Certification 2" class="h-16 mb-2">
+          <img src="/media/meta.png" alt="Certification 2" class="h-16 mb-2">
           <p class="text-sm font-medium">Meta Social Media Marketing Professional Certificate</p>
         </div>
   
         <div class="flex flex-col items-center text-center">
-          <img src="/unicef.jpg" alt="Certification 3" class="h-16 mb-2">
+          <img src="/media/unicef.jpg" alt="Certification 3" class="h-16 mb-2">
           <p class="text-sm font-medium">UNICEF - Communications for Development(C4D)</p>
         </div>
   
         <div class="flex flex-col items-center text-center">
-          <img src="/linkedin.jpg" alt="Certification 4" class="h-16 mb-2">
+          <img src="/media/linkedin.jpg" alt="Certification 4" class="h-16 mb-2">
           <p class="text-sm font-medium">LinkedIN - Social Media Marketing Strategy and Optimization</p>
         </div>
 
         <div class="flex flex-col items-center text-center">
-          <img src="/linkedin.jpg" alt="Certification 4" class="h-16 mb-2">
+          <img src="/media/linkedin.jpg" alt="Certification 4" class="h-16 mb-2">
           <p class="text-smfont-medium">LinkedIn - Content Creation Strategy and Tools</p>
         </div>
 
         <div class="flex flex-col items-center text-center">
-          <img src="/google.jpg" alt="Certification 4" class="h-16 mb-2">
+          <img src="/media/google.jpg" alt="Certification 4" class="h-16 mb-2">
           <p class="text-sm font-medium">Google - Foundations of Digital Marketing and E-Commerce</p>
         </div>
 
@@ -84,17 +93,17 @@
   <section id="tools" class=" reveal max-w-5xl justify-between mx-auto px-4 py-16 fade-in">
     <h2 class="text-2xl text-center font-bold text-blue-700 mb-6" style = "color: #05A0FE">Tools & Systems</h2>
     <div class=" flex flex-nowrap sm:grid-cols-4 md:grid-cols-6 gap-6 flex-nowrapr">
-      <img src="/canva.jpeg" alt="Canva" class="h-12 mx-auto">
-      <img src="/mailchimp.png" alt="Mailchimp" class="h-12 mx-auto">
-      <img src="/kit.png" alt="Kit" class="h-12 mx-auto">
-      <img src="/capcut.png" alt="CapCut" class="h-12 mx-auto">
-      <img src="/googleanalytics.png" alt="Google Analytics" class="h-12 mx-auto">
-      <img src="/medium.png" alt="Medium" class="h-12 mx-auto">
-      <img src="/wordpress.png" alt="WordPress" class="h-12 mx-auto">
+      <img src="/media/canva.jpeg" alt="Canva" class="h-12 mx-auto">
+      <img src="/media/mailchimp.png" alt="Mailchimp" class="h-12 mx-auto">
+      <img src="/media/kit.png" alt="Kit" class="h-12 mx-auto">
+      <img src="/media/capcut.png" alt="CapCut" class="h-12 mx-auto">
+      <img src="/media/googleanalytics.png" alt="Google Analytics" class="h-12 mx-auto">
+      <img src="/media/medium.png" alt="Medium" class="h-12 mx-auto">
+      <img src="/media/wordpress.png" alt="WordPress" class="h-12 mx-auto">
     </div>
   </section>
 
-  <section id="services" class="reveal bg-gray-50 py-16 px-4 fade-in" style = "background-image: url('/newbg.jpg')">
+  <section id="services" class="reveal bg-gray-50 py-16 px-4 fade-in" style = "background-image: url('/media/newbg.jpg')">
     <div class="max-w-5xl mx-auto">
       <h2 class="text-2xl font-bold text-center mb-6" style = "color: #05A0FE">Services</h2>
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -110,18 +119,18 @@
   <section id="projects" class="reveal max-w-5xl mx-auto px-4 py-16 fade-in text-center">
     <h2 class="text-2xl font-bold text-center text-blue-700 mb-6" style = "color: #05A0FE">Companies I've Worked With</h2>
     <div class="flex flex-wrap justify-center gap-6 mb-12">
-      <img src="/arise.png" alt="Arise" class="h-16">
-      <img src="/globalrights.jpg" alt="Global Rights" class="h-16">
-      <img src="/balloon.jpg" alt="Balloon Garland" class="h-16">
-      <img src="/maliyo.jpg" alt="Maliyo Games" class="h-16">
-      <img src="/taleit.jpg" alt="Tale It Media" class="h-16">
+      <img src="public/media/arise.png" alt="Arise" class="h-16">
+      <img src="public/media/globalrights.jpg" alt="Global Rights" class="h-16">
+      <img src="public/media/balloon.jpg" alt="Balloon Garland" class="h-16">
+      <img src="public/media/maliyo.jpg" alt="Maliyo Games" class="h-16">
+      <img src="public/media/taleit.jpg" alt="Tale It Media" class="h-16">
     </div>
 
     <h2 class="reveal text-2xl font-bold mb-4 text-blue-700 text-center" style = "color: #05A0FE">Graphic Designs</h2>
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-4">
-      <img src="/first.jpg" alt="Design 1" class="rounded shadow h-full">
-      <img src="/second.jpg" alt="Design 2" class="rounded shadow h-full">
-      <img src="/third.jpg" alt="Design 3" class="rounded shadow h-full">
+      <img src="/media/first.jpg" alt="Design 1" class="rounded shadow h-full">
+      <img src="/media/second.jpg" alt="Design 2" class="rounded shadow h-full">
+      <img src="/media/third.jpg" alt="Design 3" class="rounded shadow h-full">
     </div>
     <a class=" bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800 transition" href="https://drive.google.com">View More</a>
 
@@ -135,8 +144,8 @@
 
     <h2 class="text-xl font-bold mt-12 mb-4 text-blue-700" style = "color: #05A0FE">UGC Videos</h2>
     <div class="flex flex-nowrap gap-4">
-      <video src="/taleit-ad.mp4" controls class="w-full sm:w-1/2 rounded shadow"></video>
-      <video src="/vsp.mp4" controls class="w-full sm:w-1/2 rounded shadow"></video>
+      <video src="/media/taleit-ad.mp4" controls class="w-full sm:w-1/2 rounded shadow"></video>
+      <video src="/media/vsp.mp4" controls class="w-full sm:w-1/2 rounded shadow"></video>
     </div>
     <a class="text-blue-600 hover:underline mt-2 inline-block" href="link-to-full-videos">Watch Full Videos</a>
   </section>
@@ -161,29 +170,22 @@
     <blockquote class="italic border-l-4 pl-4 text-gray-700">"A creative powerhouse with real results!"</blockquote>
   </section>
 
-
   <section id="contact" class="bg-blue-50 py-16 px-60 fade-in">
-      <h2 class="text-2xl font-bold text-blue-700 mb-6" style="color: #05A0FE">Contact Me</h2>
-      <form>
-        <input type="text" placeholder="Your Name" class="w-full mb-4 p-3 border border-gray-300 rounded" required />
-        <input type="email" placeholder="Email" class="w-full mb-4 p-3 border border-gray-300 rounded" required />
-        <textarea placeholder="Message" class="w-full mb-4 p-3 border border-gray-300 rounded" required></textarea>
-        <button type="submit" class="bg-blue-700 text-white px-6 py-2 rounded hover:bg-blue-800 transition" style="background-color: #05A0FE">
-          Send Message
-        </button>
-      </form>
+    <h2 class="text-2xl font-bold text-blue-700 mb-6" style="color: #05A0FE">Contact Me</h2>
+    <form id="contact-form" class="space-y-4">
+      <input type="text" name="user_name" placeholder="Your Name" required class="w-full border rounded p-2" />
+      <input type="email" name="user_email" placeholder="Your Email" required class="w-full border rounded p-2" />
+      <textarea name="message" placeholder="Your Message" required class="w-full border rounded p-2"></textarea>
+      
+      <button id="submit-btn" type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+        Send Message
+      </button>
+    
+      <p id="form-message" class="text-sm mt-2"></p>
+    </form>
   </section>
   
-
-  <script>
-    ScrollReveal().reveal('.reveal', {
-      origin: 'top',
-      distance: '30px',
-      duration: 2000,
-      delay: 200,
-      reset: true // Set true if you want animation on every scroll
-    });
-  </script>
+  
 
 </body>
 </html>
